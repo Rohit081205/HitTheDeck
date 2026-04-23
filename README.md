@@ -74,10 +74,6 @@ A deep database of major Indian venues (Chepauk, Wankhede, Eden Gardens, etc.) w
    npm run dev
    ```
 
-## 🌐 Deployment
-
-The project is optimized for deployment on [Vercel](https://vercel.com). Simply import your GitHub repository and add the `GEMINI_API_KEY` to the project's Environment Variables.
-
 ---
 
-*Master the ground. See what the surface says.*
+*See what the surface says.*
