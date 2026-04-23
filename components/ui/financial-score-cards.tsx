@@ -224,7 +224,7 @@ function FinancialScoreHalfCircle({ value, max }: FinancialScoreHalfCircleProps)
 function FinancialScoreHeader({ title, strength }: FinancialScoreHeaderProps) {
   const hasStrength = strength !== Strength.None
 
-  const getBadgeClassName = (strength: Strength) => {
+  const getBadgeClassName = (strength: Strength | undefined) => {
     switch (strength) {
       case Strength.Weak:
         return "bg-red-500/10 text-red-500 border-red-500/20"
